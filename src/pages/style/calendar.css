@@ -1,0 +1,47 @@
+.week {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    background: #a7a5a5;
+
+}
+
+.day {
+    display: flex;
+    flexDirection: column;
+    justifyContent: center;
+    alignItems: center;
+    width: 15%;
+    margin: 8px;
+
+    /*'& > :first-child' {*/
+    /*height: '23px',*/
+    /*fontSize: '16px',*/
+    /*color: '#4E5983',*/
+    /*display: 'flex',*/
+    /*fontWeight: 700,*/
+    /*[theme.breakpoints.down('sm')]: {*/
+    /*                                  display: 'none'*/
+    /*                              },*/
+    /*},*/
+    /*'& > :nth-child(2)': {*/
+    /*display: 'none',*/
+    /*[theme.breakpoints.down('sm')]: {*/
+    /*                                  display: 'flex',*/
+    /*                                  height: '23px',*/
+    /*                                  fontSize: '16px',*/
+    /*                                  color: '#4E5983',*/
+    /*                                  fontWeight: 700,*/
+    /*                              },*/
+    /*},*/
+    /*'& > :last-child': {*/
+    /*                     height: '23px',*/
+    /*                     fontSize: '12px',*/
+    /*                     color: '#4E5983',*/
+    /*                     display: 'flex',*/
+    /*                 },*/
+}
+.slot:hover {
+    color: #5C9541 !important;
+    font-weight : bold!important;
+}

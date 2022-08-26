@@ -1,0 +1,41 @@
+.fc .fc-col-header-cell-cushion {
+    display: inline-block;
+    padding: 2px 4px;
+}
+.fc .fc-col-header-cell-cushion { /* needs to be same precedence */
+    padding-top: 5px; /* an override! */
+    padding-bottom: 5px; /* an override! */
+}
+.fc .fc-daygrid-day-top{
+    /*margin-top: -55px;*/
+}
+:root {
+    /*--fc-border-color: black;*/
+    /*--fc-daygrid-event-dot-width: 5px;*/
+}
+.fc-liquid-hack .fc-daygrid-day-frame{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.fc table{
+    height: 100vh;
+    overflow: hidden;
+}
+.fc-daygrid-day-events{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fc-popover-body{
+    width: 230px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+body {
+    /*overflow:hidden!important;*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+button:focus{
+    outline: none
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+/*/background: #3f4451;/*/
+background-color: rgba(63, 68, 81, 0.1);
+/*/opacity: 0.1;/*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+/*/background: #4e5983;/*/
+background-color: rgba(78, 89, 131, 0.31);
+    border-radius: 15px;
+    background-clip: padding-box;
+/*/opacity:0.31;/*/
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(78, 89, 131, 0.41);
+}
+::-webkit-scrollbar-thumb:active {
+    background: rgba(78, 89, 131, 0.51);
+}
+
+/*sweetAlert*/
+.swal2-container.swal2-container{
+    z-index: 9999!important;
+}

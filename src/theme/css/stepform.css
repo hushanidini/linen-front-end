@@ -1,0 +1,93 @@
+.vm_bg_green {
+    background: #5b9541 !important
+}
+
+.vm_bg_gray {
+    background: #5d5d5d !important
+}
+
+.vm_bg_light_gray {
+    background: #f6f6f6 !important
+}
+
+.vm_bg_light_gray2 {
+    background: #f3f3f3 !important
+}
+
+.vm_text_green {
+    color: #5b9541 !important
+}
+
+.vm_text_gray {
+    color: #5d5d5d !important
+}
+
+.vm_text_light_gray {
+    color: #f6f6f6 !important
+}
+
+.sf-wrapper, .sf-container {
+    overflow: hidden
+}
+
+.sf-step {
+    float: left
+}
+
+.sf-step.sf-active {
+    margin: 10px 0
+}
+
+.sf-error {
+    color: #DD0000
+}
+
+.sf-navigation {
+    line-height: 1em;
+    overflow: hidden;
+    text-align: right;
+    color: white
+}
+
+.sf-navigation .nav-prev, .sf-navigation .nav-next {
+    display: block;
+    padding: 10px 15px;
+    font-weight: bold;
+    background: #5b9541;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px
+}
+
+.sf-navigation .nav-prev {
+    opacity: .5;
+    float: left
+}
+
+.sf-navigation .nav-next {
+    float: right;
+    margin-left: 5px
+}
+
+.sf-navigation span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 12px 15px 0 0;
+    background: #CCCCCC
+}
+
+.sf-navigation span.sf-nav-done {
+    background: #a6e6a6
+}
+
+.sf-navigation span.sf-nav-active {
+    background: #00CC00
+}
+
+.sf-navigation span.sf-nav-error {
+    background: #DD0000
+}
+
+/*# sourceMappingURL=stepform.css.map */

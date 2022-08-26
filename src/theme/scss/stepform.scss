@@ -1,0 +1,70 @@
+@import "abstracts/variables";
+@import "abstracts/vmstyles";
+
+.stepform {}
+
+/*************** Plugin ***************/
+
+.sf-wrapper, .sf-container {
+  overflow: hidden;
+}
+
+.sf-step {
+  &.sf-active {
+    margin: 10px 0;
+  }
+
+  float: left;
+}
+
+.sf-error {
+  color: #DD0000;
+}
+
+.sf-navigation {
+  line-height: 1em;
+  overflow: hidden;
+  text-align: right;
+  color: white;
+
+  .nav-prev, .nav-next {
+    display: block;
+    padding: 10px 15px;
+    font-weight: bold;
+    background : $primary;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .nav-prev {
+    opacity: .5;
+    float: left;
+  }
+
+  .nav-next {
+    float: right;
+    margin-left: 5px;
+  }
+
+  span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 12px 15px 0 0;
+    background: #CCCCCC;
+
+    &.sf-nav-done {
+      background: #a6e6a6;
+    }
+
+    &.sf-nav-active {
+      background: #00CC00;
+    }
+
+    &.sf-nav-error {
+      background: #DD0000;
+    }
+  }
+}

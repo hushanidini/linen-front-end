@@ -1,0 +1,545 @@
+.gaming_pc {
+    background: #000 url("https://hajaan.com/wp-content/uploads/2020/10/k82-Background-1024x576-1.png") no-repeat;
+    background-size: contain
+}
+
+.gaming_pc p {
+    font-weight: 100 !important;
+    color: white
+}
+
+.gaming_pc .buynow {
+    margin-top: 40px
+}
+
+.gaming_pc .k82 .backlight {
+    background: url("https://hajaan.com/wp-content/uploads/2020/10/k82-Light.png");
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    position: absolute;
+    width: 100%;
+    height: 770px;
+    opacity: 0;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation: arrowInOut 4s linear infinite;
+    animation: arrowInOut 4s linear infinite
+}
+
+.gaming_pc .k82 .container {
+    padding-top: 100px
+}
+
+.gaming_pc .k82 .container .processor .content_wrapper {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -680px;
+    padding-left: 35px
+}
+
+.gaming_pc .k82 .container .processor .content_wrapper h3 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 44px
+}
+
+.gaming_pc .k82 .container .processor .content_wrapper p {
+    font-size: 23px;
+    color: white
+}
+
+.gaming_pc .k82 .container .product_thumb_circle .item {
+    width: 173px;
+    height: 173px;
+    border-radius: 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 5px solid #30a614;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s
+}
+
+.gaming_pc .k82 .container .product_thumb_circle .item:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 5px solid #e9e507
+}
+
+.gaming_pc .k82 .container .product_thumb_circle p {
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 400
+}
+
+.gaming_pc .k82 .container .overview .casing {
+    height: 650px;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Main-Background.png") no-repeat;
+    background-size: cover
+}
+
+.gaming_pc .k82 .container .overview .casing .content {
+    text-align: center;
+    padding-top: 55px
+}
+
+.gaming_pc .k82 .container .overview .casing .content h2 {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 44px;
+    text-transform: uppercase
+}
+
+.gaming_pc .k82 .container .overview .casing .content p {
+    font-size: 18px;
+    padding-top: 8px
+}
+
+.gaming_pc .k82 .container .overview .casing .content p .green {
+    color: #60bd16 !important
+}
+
+.gaming_pc .k82 .container .overview .casing .content p .maroon {
+    color: #b41262 !important
+}
+
+.gaming_pc .k82 .container .overview .casing .content p .yellow {
+    color: #c9b91c !important
+}
+
+.gaming_pc .k82 .container .overview .casing .content p .pink {
+    color: #a4058a !important
+}
+
+.gaming_pc .k82 .container .overview .casing .content .sep {
+    margin: 0 auto;
+    height: 1px;
+    width: 50%;
+    opacity: 0.5;
+    background: #020024;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0)), color-stop(50%, #0078ff), to(rgba(0, 212, 255, 0)));
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, #0078ff 50%, rgba(0, 212, 255, 0) 100%)
+}
+
+.gaming_pc .k82 .container .overview .casing .left_top {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Top-Left.png") no-repeat;
+    width: 116px;
+    height: 181px;
+    left: 0;
+    position: absolute;
+    display: none
+}
+
+.gaming_pc .k82 .container .overview .casing .right_top {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Top-Right.png") no-repeat;
+    width: 116px;
+    height: 181px;
+    right: 0;
+    position: absolute;
+    display: none
+}
+
+.gaming_pc .k82 .container .overview .casing .pc {
+    width: 500px;
+    height: 600px;
+    margin-left: -80px
+}
+
+.gaming_pc .k82 .container .overview .casing .pc .backlight {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/PC-Back-Light.png") no-repeat;
+    background-position: 170%;
+    -webkit-animation: rotation 2s infinite linear;
+    margin-left: -120px;
+    opacity: 10;
+    margin-top: -80px
+}
+
+.gaming_pc .k82 .container .overview .casing .pc .img {
+    width: 427px;
+    height: 600px;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/PC-3.png") no-repeat;
+    background-size: contain;
+    bottom: -20px;
+    position: absolute;
+    margin-left: 126px;
+    z-index: 999
+}
+
+.gaming_pc .k82 .container .overview .casing .pc .img .reflection {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/PC-Inside-Reflection.png") no-repeat;
+    width: 422px;
+    height: 364px;
+    background-size: contain;
+    margin-top: 181px;
+    margin-left: -80px;
+    position: absolute;
+    -webkit-animation: rotation 0.2s infinite linear
+}
+
+.gaming_pc .k82 .container .overview .casing .pc .img .flare {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Flare.png") no-repeat;
+    width: 519px;
+    height: 228px;
+    position: absolute;
+    margin-top: 341px;
+    margin-left: -245px;
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 5s
+}
+
+.gaming_pc .k82 .container .overview .casing .bottom {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Bottom.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 81px;
+    position: absolute;
+    bottom: 0;
+    display: none
+}
+
+.gaming_pc .k82 .container .overview .powersupply {
+    height: 650px;
+    width: 100%;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Background.png") no-repeat;
+    background-size: cover
+}
+
+.gaming_pc .k82 .container .overview .powersupply .fan {
+    width: 352px;
+    height: 348px;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Background-Fan.png") no-repeat;
+    margin: 0 auto;
+    margin-top: 140px;
+    position: absolute;
+    left: 40%;
+    -webkit-animation: rotation 0.1s infinite linear
+}
+
+.gaming_pc .k82 .container .overview .powersupply .powersupply_image {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Power-Supply-3.png") no-repeat;
+    width: 528px;
+    height: 490px;
+    margin-top: 104px;
+    margin-left: 90px
+}
+
+.gaming_pc .k82 .container .overview .powersupply .powersupply_image .blue_flair {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Blue-Flair.png") no-repeat;
+    width: 530px;
+    height: 408px;
+    margin-left: -130px;
+    margin-top: 190px;
+    position: absolute;
+    animation: fade 1000ms infinite;
+    -webkit-animation: fade 1000ms infinite
+}
+
+.gaming_pc .k82 .container .overview .powersupply .content {
+    padding-top: 130px;
+    text-align: center
+}
+
+.gaming_pc .k82 .container .overview .powersupply .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Green-Flair.png") no-repeat;
+    background-size: 100%;
+    background-position: 50% 26%;
+    padding-top: 80px;
+    padding-bottom: 28px
+}
+
+.gaming_pc .k82 .container .overview .powersupply .content p {
+    text-align: center;
+    font-size: 24px
+}
+
+.gaming_pc .k82 .container .overview .powersupply .content p span {
+    color: #76bf2f;
+    font-weight: bold
+}
+
+.gaming_pc .k82 .container .overview .powersupply .content .sep {
+    margin: 0 auto;
+    height: 1px;
+    width: 50%;
+    opacity: 0.5;
+    background: #020024;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(2, 0, 36, 0)), color-stop(50%, #00ff1e), to(rgba(0, 212, 255, 0)));
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0) 0%, #00ff1e 50%, rgba(0, 212, 255, 0) 100%)
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan {
+    height: 650px;
+    width: 100%;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Background-2-1.png") no-repeat;
+    background-size: cover;
+    margin-top: 60px
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .content {
+    padding-top: 160px
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .content h1 {
+    color: white;
+    padding-bottom: 15px
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .content ul {
+    margin: 0;
+    padding: 0
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .content ul li {
+    color: white;
+    font-size: 23px;
+    padding-bottom: 25px;
+    list-style: none
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .content ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    padding-right: 15px
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .cooling_fan_image {
+    width: 456px;
+    height: 510px;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Cooling-Fan-3.png") no-repeat;
+    background-size: contain;
+    margin-top: 80px;
+    margin-left: 80px
+}
+
+.gaming_pc .k82 .container .overview .cooling_fan .cooling_fan_image .fan_anim {
+    width: 320px;
+    height: 479px;
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Fan-Light-2.png") no-repeat;
+    background-size: contain;
+    margin-left: 79px;
+    opacity: 0.4;
+    -webkit-animation: rotation 0.0002s infinite linear
+}
+
+.gaming_pc .k82 .container .overview .graphic_card {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Background-2-2.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 1095px
+}
+
+.gaming_pc .k82 .container .overview .graphic_card .army {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Army-2.png") no-repeat;
+    width: 867px;
+    height: 674px;
+    background-size: 100%;
+    margin-top: 421px;
+    margin-left: -186px;
+    position: absolute;
+    -webkit-animation-name: bounce-1;
+    animation-name: bounce-1;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom
+}
+
+.gaming_pc .k82 .container .overview .graphic_card .bullet {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Bullet.png") no-repeat;
+    width: 798px;
+    height: 476px;
+    background-size: 100%;
+    margin-top: 660px;
+    margin-left: 250px;
+    z-index: 9999 !important;
+    position: absolute;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 0.001s steps(2, start) infinite
+}
+
+.gaming_pc .k82 .container .overview .ram {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Ram-Background-3.gif") no-repeat;
+    width: 100%;
+    height: 991px;
+    background-size: 100%;
+    margin-top: 80px
+}
+
+.gaming_pc .k82 .container .overview .ram .pc_image {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/PC-1.png") no-repeat;
+    width: 673px;
+    height: 742px;
+    background-size: contain;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 60px
+}
+
+.gaming_pc .k82 .container .overview .ram .pc_image .flare {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Flare-3.png") no-repeat;
+    width: 396px;
+    height: 674px;
+    background-size: contain;
+    left: 210px;
+    margin-top: 15px;
+    margin-left: 112px;
+    -webkit-animation-name: bounce-2;
+    animation-name: bounce-2;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom
+}
+
+.gaming_pc .k82 .container .overview .ram .content {
+    padding-top: 400px;
+    padding-left: 40px
+}
+
+.gaming_pc .k82 .container .overview .ram .content h1 {
+    padding-bottom: 35px
+}
+
+.gaming_pc .k82 .container .overview .ram .content ul {
+    margin: 0;
+    padding: 0
+}
+
+.gaming_pc .k82 .container .overview .ram .content ul li {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 9px;
+    list-style: none;
+    font-weight: 100
+}
+
+.gaming_pc .k82 .container .overview .ram .content ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    padding-right: 15px
+}
+
+.gaming_pc .k82 .container .overview .motherboard {
+    background: #000 url("https://hajaan.com/wp-content/uploads/2020/11/Background-3.png") no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 80px;
+    background-position: top right;
+    margin-top: 70px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content {
+    padding-left: 80px;
+    padding-top: 80px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content span {
+    color: #c9b91c
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content h1 {
+    font-size: 73px;
+    font-weight: bold;
+    line-height: 85px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content h2 {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content p {
+    text-transform: uppercase;
+    color: white;
+    margin: 0
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .right {
+    padding-top: 340px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .right ul {
+    margin: 0;
+    padding: 0
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .right ul li {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 9px;
+    list-style: none;
+    font-weight: 100
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .right ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    padding-right: 15px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .left {
+    padding-top: 20px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .left h2 {
+    padding-bottom: 15px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .left ul {
+    margin: 0;
+    padding: 0
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .left ul li {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 9px;
+    list-style: none;
+    font-weight: 100
+}
+
+.gaming_pc .k82 .container .overview .motherboard .content .left ul li:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    padding-right: 15px
+}
+
+.gaming_pc .k82 .container .overview .motherboard .motherboard_image {
+    background: url("https://hajaan.com/wp-content/uploads/2020/11/Mother-Board.gif") no-repeat;
+    width: 769px;
+    height: 561px;
+    background-size: contain;
+    margin-top: 350px;
+    position: absolute
+}
+
+.gaming_pc h1 {
+    color: white
+}
+
+.gaming_pc .main_image {
+    width: 100%
+}
+
+/*# sourceMappingURL=styles.css.map */
